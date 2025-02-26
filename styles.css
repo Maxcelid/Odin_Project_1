@@ -1,0 +1,88 @@
+body {
+    display: flex;
+    flex-direction: column;
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    display: flex;
+    flex-direction: column;
+    background-color: #1F2937;
+    color: white;
+}
+
+.top-header {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;}
+
+.text-styleH {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+    font-weight: bold;
+    margin: 0;
+    padding: 10px;
+
+}
+
+.text-styleH1 {
+    font-size: 48px;
+    font-weight: 900;
+    margin: 0;
+}
+
+.text-styleH2 {
+    font-size: 19px;
+    margin: 0;
+}
+
+.rounded-btn {
+    background-color: #3882F6;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    width: 100px;
+}
+
+.bottom-header {
+    display: flex;
+    justify-content: space-between;
+    flex: 1;
+    padding: 20px;
+    gap: 20px;
+}
+
+.img-container {
+    display: flex;
+    flex: 1;
+    background-color: rgba(192, 192, 192, 0.529);
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.text-container {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    padding: 10px;
+    gap: 10px;
+    margin: 0;
+}
+
+.horizontal-list {
+    list-style: none; /* Removes default bullets */
+    display: flex; /* Makes items appear in a row */
+    gap: 15px;
+}
+
+.horizontal-list a {
+    text-decoration: none;
+    color: grey;
+    font-size: 18px;
+}
